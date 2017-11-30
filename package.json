@@ -2,7 +2,6 @@
   "name": "online-cv",
   "version": "0.0.1",
   "private": true,
-  "homepage": "https://fif0o.github.io/online-cv",
   "scripts": {
     "install:jekyll": "gem install jekyll bundler",
     "serve": "jekyll serve && open http://127.0.0.1:4000/online-cv/"
