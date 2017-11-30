@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "install:jekyll": "gem install jekyll bundler",
-    "serve": "jekyll serve && open http://127.0.0.1:4000/online-cv/"
+    "install:bundler": "gem install bundler",
+    "install:jekyll": "npm run install:bundle && bundle install",
+    "serve": "bundle exec jekyll serve && open http://127.0.0.1:4000/online-cv/",
+    "update:gem": "bundle update"
   }
 }
