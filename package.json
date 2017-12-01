@@ -1,6 +1,7 @@
 {
   "name": "online-cv",
   "version": "0.0.1",
+  "homepage": "https://fif0o.github.io/online-cv/_site",
   "private": true,
   "scripts": {
     "install:bundler": "gem install bundler",
