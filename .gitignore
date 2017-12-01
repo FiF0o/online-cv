@@ -3,3 +3,4 @@ _site/
 .jekyll-metadata
 .history
 Gemfile.lock
+node_modules
