@@ -30,12 +30,6 @@ compress_html: # - http://jch.penibelst.de/
   ignore:
     envs: development
 
-#plugins:
-# -
-
-#gems:
-# -
-
 exclude:
   - Guardfile
   - Rakefile

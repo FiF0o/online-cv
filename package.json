@@ -6,7 +6,11 @@
   "scripts": {
     "install:bundler": "gem install bundler",
     "install:jekyll": "npm run install:bundler && bundle install",
+    "postinstall": "npm run install:jekyll",
     "dev": "bundle exec guard && open http://127.0.0.1:4000/online-cv/",
     "update:gem": "bundle update"
+  },
+  "devDependencies": {
+    "gulp": "3.9.1"
   }
 }
