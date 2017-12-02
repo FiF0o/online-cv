@@ -5,8 +5,8 @@
   "private": true,
   "scripts": {
     "install:bundler": "gem install bundler",
-    "install:jekyll": "npm run install:bundle && bundle install",
-    "serve": "bundle exec jekyll serve && open http://127.0.0.1:4000/online-cv/",
+    "install:jekyll": "npm run install:bundler && bundle install",
+    "dev": "bundle exec guard && open http://127.0.0.1:4000/online-cv/",
     "update:gem": "bundle update"
   }
 }

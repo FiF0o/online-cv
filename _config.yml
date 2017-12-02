@@ -1,14 +1,7 @@
 # Site Settings
-title: Jon Lazarini CV
-#url: 'https://fif0o.github.io' #jonathanlazarini.com
-#baseurl: '/online-cv' #change it according to your repository name
-
-# Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
-#style: styles-2
-#style: styles-3
-#style: styles-4
-#style: styles-5
-#style: styles-6
+title: Jon  CV
+url: 'https://fif0o.github.io' #jonathanlazarini.com
+baseurl: '/online-cv' #change it according to your repository name
 
 #Profile information
 name: Alan Doe
@@ -26,10 +19,9 @@ website: blog.webjeda.com #do not add http://
 linkedin: alandoe
 github: sharu725
 twitter: '@webjeda'
-#Update all the sections by editing the files inside _data folder.
 
 # Tracker
-analytics: UA-83979019-1
+#analytics: UA-83979019-1
 
 # Build settings
 encoding: "utf-8"
@@ -37,3 +29,17 @@ compress_html: # - http://jch.penibelst.de/
   clippings: all
   ignore:
     envs: development
+
+#plugins:
+# -
+
+#gems:
+# -
+
+exclude:
+  - Guardfile
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - assets/less
