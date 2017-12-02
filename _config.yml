@@ -37,3 +37,6 @@ exclude:
   - Gemfile.lock
   - package.json
   - assets/less
+  - node_modules
+  - gulpfile.js
+  - .history

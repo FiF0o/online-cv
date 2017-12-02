@@ -8,9 +8,26 @@
     "install:jekyll": "npm run install:bundler && bundle install",
     "postinstall": "npm run install:jekyll",
     "dev": "bundle exec guard && open http://127.0.0.1:4000/online-cv/",
+    "styles": "./node_modules/.bin/gulp minify-css",
+    "html": "./node_modules/.bin/gulp minify-html",
+    "js": "./node_modules/.bin/gulp minify-js",
+    "bundle": "gulp",
     "update:gem": "bundle update"
   },
+  "pre-push": {
+    "run": ["bundle"],
+    "colors": true
+  },
   "devDependencies": {
-    "gulp": "3.9.1"
+    "gulp": "3.9.1",
+    "gulp-clean-css": "3.9.0",
+    "gulp-concat": "2.6.1",
+    "gulp-htmlmin": "3.0.0",
+    "gulp-imagemin": "4.0.0",
+    "gulp-rename": "1.2.2",
+    "gulp-sourcemaps": "2.6.1",
+    "gulp-uglify": "3.0.0",
+    "pre-push": "0.1.1",
+    "pump": "2.0.0"
   }
 }
