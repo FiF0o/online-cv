@@ -9,4 +9,44 @@
 @import "mixins.less";
 @import "theme-default.less";
 @import "base.less";
+/**
+* Other less modules
+**/
 @import "responsive.less";
+
+/**
+* Global
+**/
+
+/**
+* Global overrides (less & bootstrap)
+**/
+
+/* BOOTSTRAP */
+img {
+  &.profile-img {
+    box-shadow: inset 0px 0px 10px rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+  }
+}
+
+.label {
+  background-color: #9567ff;
+//   color: white;
+//   border: 1px solid white;
+//   margin: .5em;
+}
+
+span {
+  &.label {
+    &.label-default {
+      font-weight: 700;
+      font-size: 1em;
+    }
+  }
+}
+
+/* LESS */
+
+
+/****************************** END ******************************/

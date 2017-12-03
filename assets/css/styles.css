@@ -26,7 +26,7 @@ h6 {
   font-weight: 700;
 }
 a {
-  color: #b37300;
+  color: #4f03fc;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -34,7 +34,7 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  color: #664200;
+  color: #3702b1;
 }
 a:focus {
   text-decoration: none;
@@ -43,7 +43,7 @@ p {
   line-height: 1.5;
 }
 .wrapper {
-  background: #ffa500;
+  background: #844ffd;
   max-width: 960px;
   margin: 0 auto;
   position: relative;
@@ -52,10 +52,10 @@ p {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 .sidebar-wrapper {
-  background: #ffa500;
+  background: #844ffd;
   position: absolute;
   right: 0;
-  width: 240px;
+  width: 270px;
   height: 100%;
   min-height: 800px;
   color: #fff;
@@ -161,7 +161,7 @@ p {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 500;
-  color: #b37300;
+  color: #4f03fc;
   position: relative;
   margin-top: 0;
   margin-bottom: 20px;
@@ -180,7 +180,7 @@ p {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  background: #b37300;
+  background: #4f03fc;
   text-align: center;
   padding-top: 8px;
   font-size: 16px;
@@ -243,7 +243,7 @@ p {
 }
 .skillset .level-bar-inner {
   height: 12px;
-  background: #ffc04d;
+  background: #b99bfe;
 }
 .footer {
   padding: 30px;
@@ -257,6 +257,9 @@ p {
 .footer .fa-heart {
   color: #fb866a;
 }
+/**
+* Other less modules
+**/
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .sidebar-wrapper {
@@ -294,3 +297,23 @@ p {
 }
 /* Large devices (large desktops, 1200px and up) */
 /* Ex-Large devices (large desktops, 1200px and up) */
+/**
+* Global
+**/
+/**
+* Global overrides (less & bootstrap)
+**/
+/* BOOTSTRAP */
+img.profile-img {
+  box-shadow: inset 0px 0px 10px rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+.label {
+  background-color: #9567ff;
+}
+span.label.label-default {
+  font-weight: 700;
+  font-size: 1em;
+}
+/* LESS */
+/****************************** END ******************************/

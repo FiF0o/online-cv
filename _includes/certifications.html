@@ -1,0 +1,23 @@
+{% if site.data.certifications %}
+  <div class="remove-container container-block">
+      <h2 class="container-block-title">Certifications</h2>
+      <ul class="list-unstyled interests-list">
+        {% for certification in site.data.certifications %}
+          <li style="padding-bottom:.2em;">
+            <h5>
+              <span>{{certification.title}}</span>
+              <span>
+                - <a
+                    href="{%if certification.link%}{{certification.link}}{%else%}#{%endif%}"
+                    style="font-style:italic;font-weight:400;font-size:.9em;"
+                  >
+                    {{certification.organisation}}
+                  </a>
+              </span>
+            </h5>
+            <p><em>{{certification.date}}</em></p>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+{% endif %}

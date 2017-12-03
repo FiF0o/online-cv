@@ -1,8 +1,20 @@
 - education:
-  degree: MSc in Computer Science
-  university: University of London
-  time: 2011 - 2012
+  degree: Master 2 in HCI - MSc level
+  university: Universite de Provence (Aix-Marseille I)
+  time: 2007 - 2008
+  description: User Experience, Computer Science, Human Factor Engineering, Ergonomics, Cognitive Sciences
 - education:
-  degree: BSc in Applied Mathematics
-  university: Bristol University
-  time: 2007 - 2011
+  degree: Master 1 in Cognitive Sciences & Neurosciences
+  university: Universite de Provence (Aix-Marseille I)
+  time: 2006 - 2007
+  description: Human Factor Engineering, Ergonomics, Cognitive Sciences, Neurosciences, Statistics
+- education:
+  degree: BSc in Psychology & Cognitive Sciences
+  university: Universite de Provence (Aix-Marseille I)
+  time: 2003 - 2006
+  description: Psychology, Cognitives sciences, Neurosciences, Statistics, Ergonomics
+- education:
+  degree: BSc in Applied Mathematics in Social Sciences
+  university: Universite de Provence (Aix-Marseille III)
+  time: 2008 - 2009
+  description: Following courses at the University during MSc internship - No degree or certification

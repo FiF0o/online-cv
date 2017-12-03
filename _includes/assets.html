@@ -1,0 +1,16 @@
+{% if site.data.assets %}
+<div class="remove-container container-block">
+    <h2 class="container-block-title">Technical assets</h2>
+    <ul class="list-unstyled interests-list">
+      {% for asset in site.data.assets %}
+      <li>
+        <p><b>{{asset.type}}:</b><em>&nbsp;</em>
+          {% for list in asset.list %}
+          <span class="label label-default" style="margin:.1em;">{{list.tag}}</span>
+          {% endfor %}
+        </p>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %}
