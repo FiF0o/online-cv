@@ -1,18 +1,39 @@
 - skill:
-  name: Python & Django
-  level: 98%
+  name: UX Research
+  level: 85%
 - skill:
-  name: Javascript & jQuery
-  level: 98%
+  name: Design
+  level: 90%
 - skill:
-  name: Angular
-  level: 98%
+  name: Javascript & Es6
+  level: 90%
+- skill:
+  name: Nodejs
+  level: 80%
+- skill:
+  name: React
+  level: 85%
 - skill:
   name: HTML5 & CSS
   level: 95%
 - skill:
-  name: Ruby on Rails
-  level: 85%
+  name: Sketch & InVision
+  level: 90%
 - skill:
-  name: Sketch & Photoshop
+  name: Sketch
+  level: 90%
+- skill:
+  name: Adobe suite
+  level: 70%
+- skill:
+  name: Prototyping tools</br>(Axure, FramerJs, Origami)
+  level: 95%
+- skill:
+  name: Project Management
+  level: 70%
+- skill:
+  name: Stakeholder Management
+  level: 75%
+- skill:
+  name: Python
   level: 60%
