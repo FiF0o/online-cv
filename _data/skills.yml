@@ -20,9 +20,6 @@
   name: Sketch & InVision
   level: 90%
 - skill:
-  name: Sketch
-  level: 90%
-- skill:
   name: Adobe suite
   level: 70%
 - skill:
@@ -37,3 +34,6 @@
 - skill:
   name: Python
   level: 60%
+- skill:
+  name: Back-end
+  level: 70%

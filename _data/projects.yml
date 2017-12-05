@@ -1,24 +1,38 @@
 - intro:
-  description: "You can list your side projects or open source libraries in this section. Lorem ipsum dolor
-  sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus."
+  description: "Below is a section presenting some of my personal projects as well as the ones already delivered and customer facing.</br>This is a non-exhaustive list."
 
 - project:
-  title: Velocity
-  link: "#hook"
-  tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  title: Unified Design Framework
+  link: '#'
+  tagline: "Implementation of a Design system for Lloyds Banking Group client web applications <em>(Retail banking)</em> also known as UDF."
 - project:
-  title: DevStudio
-  link: "#"
-  tagline: "A responsive website template designed to help web developers/designers market their services."
+  title: Lloyds Banking Group Client Web Application
+  link: 'https://www.lloydsbank.com/'
+  tagline: "Implementation of payment features for retail banking web applications."
 - project:
-  title: Tempo
-  link: "#"
-  tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+  title: Philips consumer
+  link: "https://www.philips.co.uk"
+  tagline: "Implementation of a living styleguide for Philips consumer using atomic design approach."
 - project:
-  title: Atom
-  link: "#"
-  tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+  title: US Bank
+  link: "https://www.usbank.com/index.html"
+  tagline: "Experience roadmap, UX Research and UI design of US Bank employee self service."
 - project:
-  title: Delta
-  link: "#"
-  tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+  title: Belgacom
+  link: "https://www.proximus.be/en/id_zwpr_p/personal/products.html"
+  tagline: "Experience roadmap, UX Research and full interactive prototyping of Belgacom omnichannel product pack retail application."
+- project:
+  title: RBS 6 Nations
+  tagline: "UX Research, Design and Prototyping for RBS 6 Nations iPhone mobile app as well as designs."
+- project:
+  title: MR3 (iTrent2) - MidlandHR
+  link: "https://www.mhr.co.uk/"
+  tagline: "UX Product roadmap, Information Architecture, UX Research, branding and prototyping of HR employee self-service (ERP)."
+- project:
+  title: R-Link2 - Renault
+  link: "https://group.renault.com/en/news/blog-renault/r-link-2-the-personalized-intuitive-connected-multimedia-system/"
+  tagline: "UX Research, Desk Research, Contextual enquiry, MMI specifications, Wireframing, UI design of Renault touch screens for cars from €15-40k."
+- project:
+  title: e-shift by wire - Renault
+  link: "https://www.ficosa.com/news/renault-chooses-the-new-ficosas-shift-by-wire-automatic-gearshift-for-espace/"
+  tagline: "Desk Research, Market Research, Competitor Analysis and MMI/HMI specification Renault <a href='http://erticonetwork.com/renault-chooses-the-new-ficosas-shift-by-wire-automatic-gearshift-for-espace/'>shift by wire</a> for cars from €15-40k."
