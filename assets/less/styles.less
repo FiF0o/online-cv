@@ -17,6 +17,15 @@
 /**
 * Global
 **/
+.print-page {
+  @media all {
+    display: none;
+  }
+  @media print {
+    display: block;
+    page-break-before: always;
+  }
+}
 
 /**
 * Global overrides (less & bootstrap)
@@ -46,7 +55,33 @@ span {
   }
 }
 
+
 /* LESS */
+@media print {
+  a[href]:after {
+    content: none !important;
+  }
+}
+
+footer {
+  &.footer {
+    @media print {
+      display: none;
+    }
+  }
+}
+
+#print, #recommendations {
+  @media print {
+    display: none; //kk10xBye
+  }
+}
+
+section.skills-section.section {
+  @media print {
+    display: none;
+  }
+}
 
 
 /****************************** END ******************************/

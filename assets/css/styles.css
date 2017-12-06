@@ -47,9 +47,9 @@ p {
   max-width: 960px;
   margin: 0 auto;
   position: relative;
-  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
 }
 .sidebar-wrapper {
   background: #844ffd;
@@ -300,6 +300,17 @@ p {
 /**
 * Global
 **/
+@media all {
+  .print-page {
+    display: none;
+  }
+}
+@media print {
+  .print-page {
+    display: block;
+    page-break-before: always;
+  }
+}
 /**
 * Global overrides (less & bootstrap)
 **/
@@ -316,4 +327,25 @@ span.label.label-default {
   font-size: 1em;
 }
 /* LESS */
+@media print {
+  a[href]:after {
+    content: none !important;
+  }
+}
+@media print {
+  footer.footer {
+    display: none;
+  }
+}
+@media print {
+  #print,
+  #recommendations {
+    display: none;
+  }
+}
+@media print {
+  section.skills-section.section {
+    display: none;
+  }
+}
 /****************************** END ******************************/
