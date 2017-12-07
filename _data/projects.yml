@@ -1,5 +1,5 @@
 - intro:
-  description: "Below is a section presenting some of my personal projects as well as the ones already delivered and customer facing.</br>This is a non-exhaustive list."
+  description: "Below is a section presenting some of my personal projects as well as the customer-facing ones already delivered.</br>This is a non-exhaustive list."
 
 - project:
   title: Unified Design Framework
@@ -20,14 +20,14 @@
 - project:
   title: Belgacom
   link: "https://www.proximus.be/en/id_zwpr_p/personal/products.html"
-  tagline: "Experience roadmap, UX Research and full interactive prototyping of Belgacom omnichannel product pack retail application."
+  tagline: "Experience roadmap, UX Research and full interactive prototyping of Belgacom omnichannel product pack retail web application."
 - project:
   title: RBS 6 Nations
   tagline: "UX Research, Design and Prototyping for RBS 6 Nations iPhone mobile app as well as designs."
 - project:
   title: MR3 (iTrent2) - MidlandHR
   link: "https://www.mhr.co.uk/"
-  tagline: "UX Product roadmap, Information Architecture, UX Research, branding and prototyping of HR employee self-service (ERP)."
+  tagline: "UX Product roadmap, Information Architecture, UX Research, branding and prototyping of HR employee self-service <em>(ERP)</em>."
 - project:
   title: R-Link2 - Renault
   link: "https://group.renault.com/en/news/blog-renault/r-link-2-the-personalized-intuitive-connected-multimedia-system/"
