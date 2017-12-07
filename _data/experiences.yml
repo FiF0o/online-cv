@@ -1,28 +1,219 @@
 - experience:
-  role: Lead Developer
-  time: 2015 - Present
-  company: Startup Hubs, San Francisco
-  details: "Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing
-  elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
-  magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-  pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.
-  <br> <br>
-  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-  laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-  architecto beatae vitae dicta sunt explicabo."
+  role: Front-end Engineer
+  time: March 2016 - Present
+  company: Buildit@Wipro Digital, London - UK
+  details: "
+  <a href='http://buildit.wiprodigital.com/' target='_blank'>Buildit</a> is a global engineering transformation studio in Wipro Digital, with the base in London, Edinburgh, Dublin, NYC, Denver & Bangalore.</br>
+  Joined the front-end engineering team when Wipro Digital acquired Designit.
+  </br>
+  Clients included LLoyds, AIB.  
+  </br></br>
+  Crossing gaps between design and development platforms to help define new ways of working and cross-functional teams.
+  Working on FS accounts as a front-end engineer (Lloyds Banking Group) using React and Nodejs stack. Features implementation, unit tests and e2e testing.
+  Help and facilitate teams to enable cross-functional work (Design, Development, Brand & Compliance).
+  </br></br>
+  Member of the core team and developer helping create a Design System for multi brands using sketch and javascript front-end stacks such as React, Storybook as well as various css frameworks (pre-processors, scoped css).</br>
+  The team is responsible of delivering consistent designs, brands across Lloyds client web applications, design teams, brand & compliance as well its sign off process. The libraries are used by hundreds of designers and developers across Lloyds.
+  "
+  tags:
+    - Reactjs
+    - Redux
+    - Docker
+    - Jenkins
+    - Webpack
+    - Nodejs
+    - Preprocessors
+    - Jest
+    - Selenium
+    - Design system
+    - Analytics
 - experience:
-  role: Senior Software Engineer
-  time: 2014 - 2015
-  company: Google, London
-  details: "Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing
-  elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
-  magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-  pellentesque eu, pretium quis, sem."
+  role: UX Manager - Principal Consultant
+  time: November 2014 - Present
+  company: Wipro Digital, London - UK
+  details: "
+  The full breadth of <a href='http://wiprodigital.com/' target='_blank'>Wipro Digital</a> and Designit capabilities in strategy, design and technology positions Wipro Digital at intersections where WD derive insight, shape interaction, develop integration and unlock innovation - with the customer's journey at the center of everything.</br>
+  UX Lead on projects, responsible for pitching UX work to Wipro Digital accounts with client partners and Global heads. Most of the accounts were from Finance.
+  </br>
+  Clients included HSBC, US Bank, Lloyds, Novartis, Pru, Philips, Hartford.  
+  </br></br>
+  Working closely with Wipro Digital engineering (future Buildit) team to implement and adopt a lean UX approach as a best practice when pitching to clients.
+  UX operational work from research (ux strategy, defining experience maps, product roadmaps, requirements gathering through workshops), to full prototyping using various tools such as Axure, Adobe, Sketch, inVision or more technical tools like Framerjs, Origami, Hype.</br>
+  In charge of overseing UX research activities and mentoring.
+  "
+  tags:
+    - UX Strategy
+    - UX Research
+    - Optimal Sort
+    - Survey Monkey
+    - UX Design
+    - Sketch
+    - inVision
+    - Zeplin
+    - Axure
+    - Adobe
+    - Atomic design
+    - Design system
 - experience:
-  role: UI Developer
-  time: 2012 - 2014
-  company: Amazon, London
-  details: "Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing
-  elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
-  magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-  pellentesque eu, pretium quis, sem."
+  role: UX Specialist - Associate Manager
+  time: August 2013 - November 2014
+  company: Accenture, London - UK
+  details: "
+  I joined Accenture Mobility part of <a href='https://www.accenture.com/gb-en/interactive-index' target='_blank'>Accenture Digital</a> where I had management consulting responsibilities as well as managing Associate consultants.
+  </br>
+  I was involved in mobility projects (web & native) mainly to help crafting end user experiences in various sectors such as O&G, Telecom, Retail, Banking for global accounts across the world (Europe, USA, China).
+  </br>
+  Clients included Belgacom, RBS, Bank of Ireland, Barclays, Exxon, Shell, BP.
+  </br></br>
+  Responsible of define UX strategy for clients and project scopes as well as operational UX activities such as Research to full prototyping and testing.</br>
+  Helping pre-sales and client accounts to pitch in UX.
+  Operational tasks included stakeholder management, product roadmap, research activities (qualitative & quantitative) such as usability testing, user testing, online questionnaires, analytics analysis and design.
+  "
+  tags:
+    - Mobile
+    - Native
+    - Web design
+    - UX Strategy
+    - UX Research
+    - UX Design
+    - Sketch
+    - inVision
+    - Zeplin
+    - Axure
+    - Adobe
+    - Stakeholder Management
+- experience:
+  role: Information Architect/UX Designer - Senior
+  time: April 2012 - August 2013
+  company: MidlandHR, Nottingham - UK
+  details: "
+  <a href='https://www.mhr.co.uk/' target='_blank'>MHR</a> is a specialist provider of software and outsourcing services for HR, talent management, payroll and business intelligence.
+  </br>
+  Responsible for defining UX product roadmap and UX Strategy (HR ERP) for the company in an Agile environment. I was the first UX Designer in the company and the UX team grew to 4 people.
+  I was in charge of the research activities, design to features prototyping for testing.
+  </br></br>
+  Main tasks included interviews, focus groups, defining product information architecture, questionnaires, surveys, user testing, wireframing, branding and working closely with BAs, developers to ensure product quality (User stories, Use Cases and UAT).
+  "
+  tags:
+  - UX Strategy
+  - Optimal Sort
+  - Survey Monkey
+  - UX Research
+  - UX Design
+  - Axure
+  - Adobe
+  - Balsamiq Mockups
+  - UAT
+  - Use cases & specifications
+  - HR
+  - ERP
+- experience:
+  role: Human Computer Interaction Researcher - Senior
+  time: July 2011 - April 2012
+  company: Renault, Paris - France
+  details: "
+  <a href='https://www.renault.co.uk/' target='_blank'>Renault</a> is a French multinational automobile manufacturer.
+  </br>
+  I joined the HFE & Ergonomics department in charge of creating product specifications and testing and was assigned to projects for cars ranging from 15 to €45k.</br>
+  Main projects included the MMI/HMI specifications of their new gear shit as well as working closely with product design teams for its design and implementation.
+  </br>
+  I also created specifications for their suppliers to implement to new generation of touch screens (7' & 9') to be embedded in the dashboards as well as its information architecture and design (wirefames & UI).
+  Worked closely with the researchers to follow up on user testing sessions and market/competitor research.
+  </br></br>
+  This was the most challenging environement I have ever worked with.
+  "
+  tags:
+    - UX Research (Qualitative)
+    - Human Factor Engineering
+    - Online surveys
+    - Card sorting & Taxonomies
+    - Desk Research
+    - Competitor Analysis
+    - User Testing
+    - HMI Specifications
+    - Reports
+    - Wireframing
+    - Product Design
+    - Native
+- experience:
+  role: UX Researcher - Mid
+  time: November 2010 - July 2011
+  company: Yuseo, Paris - France
+  details: "
+  <a href='https://www.yuseo.com/' target='_blank'>Yuseo</a> is the french leader of digital experience and research using propriatary tools enabling companies to make strategic and operational decisions through design thinking, user centric approaches.
+  I was involved in performing any tasks, activites relative to UX research (qualitative and quantitave).
+  </br></br>
+  Screening, emailing, running and organising sessions, reports and client presentations,
+  eye tracking, card sorting, various ergonomics online questionnaires , MVT & AB Testing, usability testing, user testings.
+  </br>
+  I was creating online surveys to feed a prioprietary database assessing UX trends and competitors known as the 'UX Barometer'. I was also responsible of writting sections of UX research and findings in the UX barometer white book.
+  Helping the marketing team running online campaigns through emailing tools.
+  </br></br>
+  Low level wireframing for clients after ideation stages, experience mapping and product roadmap definition.</br>
+  Clients included Air France, Axa, Paypal, Deezer, Sunweb, Bottega Veneta, Dior, LVMH, Philips.
+  "
+  tags:
+    - UX Research (Qualitative & Quantitative)
+    - Online surveys
+    - Card sorting
+    - Emailing & Marketing Campaigns
+    - Panelists Management
+    - Usability Testing
+    - User Testing
+    - Eye Tracking
+    - Participant Recruitment & Segmentation
+    - Reports    
+- experience:
+  role: UX Researcher - Junior
+  time: March 2010 - November 2010
+  company: LOUSTIC, Rennes - France
+  details: "
+  <a href='http://www.loustic.net/accueil' target='_blank'>LOUSTIC</a> is a multidisciplinary research platform on the uses of information and communication technologies.
+  </br>
+  Responsible of performing UX Research activities for governmental products related to e-learning.
+  Tasks included defining product hypothesis based on market & academic research, participant recruitment, screening, interviews, focus groups (across the France), qualitative data analysis, user testing and creating reports for future specifications.</br>
+  The main project I was assigned to was the design of an e-learning platform, support, for homecare assistants.
+  </br></br>
+  Mastering inferential statistical analysis to give guidance on behaviours and validating product hypothesis for specifications.
+  </br>
+  Project included multiple partners for its implementation (Government as the main sponsor and stakeholder as well as several agencies).
+  "
+  tags:
+    - UX Research (Qualitative)
+    - Online surveys
+    - Card sorting
+    - Usability Testing
+    - Contextual Inquiry
+    - Focus Groups
+    - Interviews
+    - User Testing
+    - Eye Tracking
+    - Participant Recruitment & Segmentation
+    - Reports
+    - Inferential statistics
+    - Product Design
+    - Web Design
+- experience:
+  role: UX Researcher - Trainee
+  time: May 2008 - December 2008
+  company: IMNSSA (Military Hospital for the Health Management division of the Armed Forces), Toulon - France
+  details: "
+  <a href='http://www.ecole-valdegrace.sante.defense.gouv.fr/preparation-ops-et-milieux/centre-de-formation-de-medecine-navale-cfmn/centre-de-formation-de-medecine-navale-cfmn' href='_blank'>IMNSSA</a> is part of the Minister of Defence.
+  </br>
+  Assisting senior Human Factor Engineers to gather requirements and get a better understanding of senior physicians activity to create requirements for the new e-medicine software allowing patient (military in overseas theatres of operations) information sharing.</br>
+  Performing mostly ergonomics activities to understand junior and senior physicians routines in emergencies services.
+  </br>
+  Tasks included running research protocols, analysing questionnaires, qualitative data (interviews), creating reports for senior ergonomists/HFEs to help them create requirements for the software (Lotus Notes).
+  "
+  tags:
+    - UX Research (Qualitative)
+    - Ergonomics
+    - Human Factor Engineering
+    - Focus groups
+    - Interviews
+    - Online surveys
+    - Contextual inquiry
+    - Activity Analysis
+    - User testing
+    - Reports
+    - Intranet

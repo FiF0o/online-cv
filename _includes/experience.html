@@ -22,6 +22,12 @@
     </div><!--//details-->
     {% endif %}
 
+    <blockquote class="blockquote" style="padding-bottom:15px;">
+      {% for tag in experience.tags %}
+        <span class="badge badge-pill badge-default">{{tag}}</span>
+      {% endfor %}
+    </blockquote>
+
   </div><!--//item-->
 {% endfor %}
 
