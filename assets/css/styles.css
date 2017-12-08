@@ -311,7 +311,7 @@ p {
 @media print {
   .print-page {
     display: block;
-    page-break-before: always;
+    page-break-after: always;
   }
 }
 /**
@@ -333,6 +333,9 @@ span.label.label-default {
 @media print {
   a[href]:after {
     content: none !important;
+  }
+  hr {
+    display: none;
   }
 }
 @media print {
