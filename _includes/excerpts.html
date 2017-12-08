@@ -1,17 +1,35 @@
 {% if site.data.excerpts %}
+  <section class="section summary-section">
+    <h2 class="section-title"><i class="fa fa-folder-open"></i>Project Excerpts</h2>
 
-<hr>
-<section class="section summary-section">
-
-  <h2 class="section-title"><i class="fa fa-folder-open"></i>Project Excerpts</h2>
-    
     <div class="summary">
-        {% for excerpt in site.data.excerpts %}
+      {% for excerpt in site.data.excerpts %}
         <div class="intro">
-            <p>{{ excerpt.description }}</p>
+          <h4>{{excerpt.project}}</h4>
+
+          <h5>context</h5>
+          <blockquote class="blockquote">
+            <p class="mb-0">{{excerpt.context}}</p>
+          </blockquote>
+          <h5>role</h5>
+          <blockquote class="blockquote">
+            <p class="mb-0">{{excerpt.role}}</p>
+          </blockquote>
+          <h5>challenge(s)</h5>
+          <blockquote class="blockquote">
+            <p class="mb-0">{{excerpt.challenge}}</p>
+          </blockquote>
+          <h5>work</h5>
+          <blockquote class="blockquote blockquote-reverse">
+            <p class="mb-0">{{excerpt.description}}</p>
+          </blockquote>
+          <h5>outcome(s)</h5>
+          <blockquote class="blockquote">
+            <p class="mb-0">{{excerpt.outcome}}</p>
+          </blockquote>
         </div><!--//intro-->
-        {% endfor%}
+      {% endfor%}
     </div><!--//summary-->
-    
-</section><!--//section-->
+
+  </section><!--//section-->
 {% endif %}

@@ -1,4 +1,7 @@
 - excerpt:
+  project: Project
+  context: context
+  role: context
+  challenge: ffff
   description: blabla
-- excerpt:
-  description: blublu
+  outcome: ggg
