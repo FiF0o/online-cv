@@ -277,6 +277,9 @@ p {
   .main-wrapper .upper-row {
     margin-bottom: 0;
   }
+  body {
+    padding: 0;
+  }
 }
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
