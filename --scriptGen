@@ -1,0 +1,78 @@
+import fs from 'fs';
+import prompt from 'prompt';
+import logger from './logger';
+
+const schema = {
+  properties: {
+    type: {
+      pattern: /^(atom|molecule|organism|a|m|o)$/,
+      description: 'Type (atom|molecule|organism|a|m|o)',
+      message: 'Type must be (atom|molecule|organism|a|m|o)',
+      required: true,
+    },
+    name: {
+      pattern: /[A-Z][a-z0-9]*[A-Z0-9][a-z0-9]+[A-Za-z0-9]*/,
+      description: 'Name (FooBar)',
+      message: 'Name must be only letters in capitlised camel case (FooBar)',
+      required: true,
+    },
+  },
+};
+
+const normalizeType = (type) => {
+  switch (type) {
+    case 'a':
+      return 'atom';
+    case 'm':
+      return 'molecule';
+    case 'o':
+      return 'organism';
+    default:
+      return type;
+  }
+};
+const replaceRefs = (template, refs) => {
+  Object.keys(refs).forEach((key) => {
+    template.replace('/{{' + key + '}}/g', refs[key]);
+  });
+
+  return template;
+};
+
+const templates = {
+  index: fs.readFileSync('.templates/indexTemplate.txt', 'utf8'),
+  test: fs.readFileSync('.templates/testTemplate.txt', 'utf8'),
+  story: fs.readFileSync('.templates/storyTemplate.txt', 'utf8'),
+  style: fs.readFileSync('.templates/styleTemplate.txt', 'utf8'),
+};
+
+prompt.start();
+
+// Get two properties from the user: username and email
+prompt.get(schema, (err, res) => {
+  const files = {
+    index: replaceRefs(templates.index, res),
+    test: replaceRefs(templates.test, res),
+    story: replaceRefs(templates.story, res),
+    style: replaceRefs(templates.style, res),
+  };
+
+  // Create the files from templates
+  Object.keys(files).forEach((key) => {
+    const dir = 'src/components/' + normalizeType(res.type) + '/' + res.name +  '/';
+    const ext = key !== 'style' ? '.jsx' : '.scss';
+    const filename = dir + key + ext;
+    
+    if (!fs.existsSync(dir)) {
+      fs.mkdirSync(dir);
+    }
+
+    fs.writeFile(filename, files[key], (err) => {
+      if (err) {
+        throw new Error(`${err.code}: ${err.message}`);
+      }
+    });
+  });
+
+  logger.info('Component created!');
+});
