@@ -4,7 +4,10 @@
 
     <div class="summary">
       {% for excerpt in site.data.excerpts %}
-        <div class="intro">
+        <div
+          class="intro"
+          style="margin-top:45px;"
+        >
           <h4>{{excerpt.project}}</h4>
 
           <h5>context</h5>
@@ -27,6 +30,19 @@
           <blockquote class="blockquote">
             <p class="mb-0">{{excerpt.outcome}}</p>
           </blockquote>
+          {% if excerpt.tags %}
+            <footer class="blockquote-footer">
+              <cite title="Source Title">Tech</cite>
+            </footer>
+            {% for tags in excerpt.tags %}
+              <span
+                class="badge badge-pill badge-default"
+                style="background-color:transparent;border:1px solid;color:#844ffd;"
+              >
+                {{tags}}
+              </span>
+            {% endfor %}
+          {% endif %}
         </div><!--//intro-->
       {% endfor%}
     </div><!--//summary-->
