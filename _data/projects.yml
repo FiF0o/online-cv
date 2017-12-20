@@ -3,7 +3,6 @@
 
 - project:
   title: Unified Design Framework
-  link: '#'
   tagline: "Implementation of a Design system for Lloyds Banking Group client web applications <em>(Retail banking)</em> also known as UDF."
 - project:
   title: Lloyds Banking Group Client Web Application
@@ -24,9 +23,10 @@
 - project:
   title: RBS 6 Nations
   tagline: "UX Research, Design and Prototyping for RBS 6 Nations iPhone mobile app as well as designs."
+  link: "http://www.sixnationsrugby.com/mobile/en/news/30793.php#i6faogWlx8ILI7O2.97"
 - project:
   title: MR3 (iTrent2) - MidlandHR
-  link: "https://www.mhr.co.uk/"
+  link: "https://www.mhr.co.uk/solutions/"
   tagline: "UX Product roadmap, Information Architecture, UX Research, branding and prototyping of HR employee self-service <em>(ERP)</em>."
 - project:
   title: R-Link2 - Renault

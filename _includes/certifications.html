@@ -7,13 +7,22 @@
             <h5>
               <span>{{certification.title}}</span>
               <span>
-                - <a
-                    href="{%if certification.link%}{{certification.link}}{%else%}#{%endif%}"
-                    target="_blank"
-                    style="font-style:italic;font-weight:400;font-size:.9em;"
-                  >
-                    {{certification.organisation}}
-                  </a>
+                - 
+                  {% if certification.link %}
+                    <a
+                      href="{{certification.link}}"
+                      target="_blank"
+                      style="font-style:italic;font-weight:600;font-size:.9em;"
+                    >
+                      {{certification.organisation}}
+                    </a>
+                  {% else %}
+                    <em
+                      style="font-style:italic;font-weight:400;font-size:.9em;"
+                    >
+                      {{certification.organisation}}
+                    </em>
+                  {% endif %}
               </span>
             </h5>
             <p><em>{{certification.date}}</em></p>
