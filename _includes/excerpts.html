@@ -12,18 +12,28 @@
 
           <h5>context</h5>
           <blockquote class="blockquote">
-            <p class="mb-0">{{excerpt.context}}</p>
+            {% for context in excerpt.context %}
+              <ul>
+                <li>{{context}}</li>
+              </ul>
+            {% endfor %}
           </blockquote>
           <h5>role</h5>
           <blockquote class="blockquote">
-            <p class="mb-0">{{excerpt.role}}</p>
+              {% for role in excerpt.role %}
+              <ul>
+                <li>{{role}}</li>
+              </ul>
+            {% endfor %}
           </blockquote>
-          <h5>challenge(s)</h5>
-          <blockquote class="blockquote">
-            <p class="mb-0">{{excerpt.challenge}}</p>
-          </blockquote>
+          {% if excerpt.challenge %}
+            <h5>challenge(s)</h5>
+            <blockquote class="blockquote">
+              <p class="mb-0">{{excerpt.challenge}}</p>
+            </blockquote>
+          {% endif excerpt.challenge %}
           <h5>work</h5>
-          <blockquote class="blockquote blockquote-reverse">
+          <blockquote class="blockquote">
             <p class="mb-0">{{excerpt.description}}</p>
           </blockquote>
           <h5>outcome(s)</h5>
@@ -32,7 +42,7 @@
           </blockquote>
           {% if excerpt.tags %}
             <footer class="blockquote-footer">
-              <cite title="Source Title">Tech</cite>
+              <cite title="Source Title">Tech/Methodologies</cite>
             </footer>
             {% for tags in excerpt.tags %}
               <span

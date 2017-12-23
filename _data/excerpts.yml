@@ -1,110 +1,279 @@
 - excerpt:
-  project: Poll app
-  context: context
-  role: context
-  challenge: ffff
-  description: blabla
-  outcome: ggg
+  project: Poll app - 2017
+  context:
+    - Tailored application enabling polls for our internal teams (~150 users).
+    - Needs to have live information.
+    - Confluence was not user friendly enough for the team and sharing the information.
+  role:
+    - Company side project as a full stack front end developper.
+    - Implementation using react, redux, thunk, google material design as the front-end and firebase as the back-end.
+    - Using serverless technology, google cloud functions for live push notifications.
+    - CI/CD pipeline is using Travis, Firebase hosting and Codacy for code quality.
+  challenge: First attempt to use functional programming, redux pattern in a production environment as well as tackling data serialization and deserialization due to firebase constraints.
+  description: The app leverages google api capabilities such as auth, realtime database, cloud functions, cloud messaging to allow users to create interactive polls with live information when it is submitted.<br>
+    I had the chance to get mentored by 2 of the most talented DevOps engineers/Developers <a href='https://github.com/mlucchini' target='_blank'>Marc Lucchini</a> & <a href='https://github.com/slyg' target='_blank'>Sylvain Faucherand</a> I have ever met.
+  outcome: The app is still available on Github but not maintained anymore.
   tags:
-    - blabla
-    - blabla
+    - Nodejs
+    - React
+    - Material UI
+    - Redux
+    - Thunk
+    - Nosql
+    - Serverless
+    - Jest
 - excerpt:
-  project: Lloyds Banking Group Unified Design System
-  context: context
-  role: context
-  challenge: ffff
-  description: blabla
-  outcome: ggg
+  project: Lloyds Banking Group Unified Design System - 2017
+  context:
+    - Started engagement with Lloyds in July 2016 as a front-end engineer.
+    - While assigned to a dev team, I performed contextual enquiry across teams to understand current ways of working as well as recurring pain points occurred which led to fundings (assisted with the help of other stakeholders) for the implementation a design system at Lloyds in March 2017.
+    - Bottlenecks across teams have already been identified (especially between design and development) and quantified to help assess costs and ROI.
+  role:
+    - Mapping out challenges, needs, information, output, business processes across teams.
+    - Pair designing with Lloyds internal teams as well as Wipro third parties, units and external third parties.
+    - Implementation of several living styleguides (react, storybook, nodejs) cross brands for Lloyds Retail Banking web applications as well being a core contributor of LLoyds core developers to code the design system API.
+    - Defining with the client new ways of working to change the culture and making sure the design system will scale up successfully.
+  challenge: Understanding flow of information required and outputs, dependencies across teams.<br>
+    Getting a step closer to a less siloed organisation and processes, ownership.
+  description: Implementation of a design system across Lloyds for their retail banking web applications.<br>
+    I had the chance to work my colleague <a href='https://twitter.com/c1rrus' target='_blank'>James Nash</a> again who is one the most talented creative technologist and provides a great expertise in terms of design systems.
+  outcome: Design system has been adopted and is now maintained by LBG internal teams.<br>
+    It used across customer web applications teams for retail banking including brand, developers and designers.<br>
+    Living styleguides cross brands (5), centralised source of information (design, dev, brand) is now used by hundreds of incubants.<br>
+    LBG is now saving cost and time during their release processes.
   tags:
-    - blabla
-    - blabla
+    - Design System
+    - React
+    - Css Preprocessors
+    - Nodejs
+    - Webpack
+    - Storybook
+    - Living Styleguides
+    - Jest
+    - Lloyds Components API
 - excerpt:
-  project: Lloyds Banking Group Client Web Applications
-  context: context
-  role: context
-  challenge: ffff
-  description: blabla
-  outcome: ggg
+  project: Lloyds Banking Group Client Web Applications - 2016
+  context:
+    - Low release cadence.
+    - Siloed teams.
+    - Limited control over the pipelines.
+  role:
+    - Features implementations.
+    - Bug fixing.
+    - Front-End development with React.
+    - Use of nodejs stack.
+    - First implementation of a living styleguide using Storybook at LBG.
+  challenge: Communication cross teams and departments.<br>
+    Ramping up a well tailored team for the client needs as well as removing the current incubants.<br>
+    First time use of Jest, Enzyme, Mocha as well as mocking with an interesting learning curve.<br>
+  description: I was embedded as a full stack front-end developer in one the the LBG core team for payments servicing.<br>
+    I was responsible of implementing features (web app has been released in May 2017), fixing bugs based on PO inputs and after feedback from end users in an Agile fashion.<br>
+    I had the chance to work alongside <a href='https://github.com/ppoliani' target='_blank'>Pavlos Polianidis</a> a very talented full stack engineer.
+  outcome: The team and the app received an award as one of the best digital agile delivery.<br>
+    App rolled out and cadence releases have been improved due to automation and teams being set up with better ways of working (Sandbox, controlled pipelines).
   tags:
-    - blabla
-    - blabla
+    - React
+    - Redux
+    - Nodejs
+    - Webpack
+    - Unit tests (Jest)
+    - BDD (Cucumber, Selenium, Webdriverio)
 - excerpt:
-  project: US Bank
-  context: context
-  role: context
-  challenge: ffff
-  description: blabla
-  outcome: ggg
+  project: US Bank - 2015
+  context:
+    - Pre-sales work and pitching for a client bid.
+    - 6 weeks accelerator project to showcase Wipro Digital design capability.
+  role:
+    - UX Lead.
+    - Managing project as well as stakeholder management.
+    - Wireframes & Visual Design.
+    - User Research.
+  description: The project was a response to an RFP for a digital transformation project.<br>
+    The client team was located in the US as well as the main sponsor of the project.<br>
+    It consisted in several design iterations (sprint) as well as defining a brand for the new self service portal.
+  outcome: Led to a £2M project, one of the first big project win after Wipro Digital unit has been created.
   tags:
-    - blabla
-    - blabla
+    - Requirement gathering
+    - Adobe Suite
+    - Axure
+    - Rapid Prorotyping
+    - Branding
+    - Sketch
 - excerpt:
-  project: Pru Self Service Portal
-  context: context
-  role: context
-  challenge: ffff
-  description: blabla
-  outcome: ggg
+  project: Pru Self Service Portal - 2014
+  context:
+    - Client was looking for ways to increase revenues and redefine existing strategy for Digital.
+    - First Wipro Digital project showcasing design capabilities.
+    - Challenging context due to many thrid parties, external consultancies involved in the programme.
+  role:
+    - UX Lead.
+    - Managing project as well as stakeholder management.
+    - UX strategy, product roadmap as well mitigation plans.
+    - Ideation, Wireframes & Visual Design.
+    - User Research & User testing.
+    - Qualitative & Quantitative research.
+  challenge: Very little documentation available about the existing processes and business objectives.<br>
+    Ramping up resources for the client.
+  description: Digital transformation project to help Prudential reduce requests from customers to call centers as well as increase online presence for client self services such as pensions, insurance products.
+  outcome: The project led to a win for Wipro Digital (one of the first project won by Wipro Digital since it has been created).<br>
+    Other partners such as BCG have been rolling off the account and replaced by Wipro & Wipro Digital.
   tags:
-    - blabla
-    - blabla
+    - Product Roadmap
+    - Adobe Suite
+    - Axure
+    - inVision
+    - Visual Designs
+    - User Research
+    - User testing
 - excerpt:
-  project: Leak dectector
-  context: context
-  role: context
-  challenge: ffff
-  description: blabla
-  outcome: ggg
+  project: Leak dectector - 2017
+  context:
+    - Personal side project.
+    - Understanding of Electronics, IoT.
+  role:
+    - Backend developer (Python, Js).
+  description: The arduino device based on Python stack (Flask), Twilio API and a (Nodejs) serverless architecture back-end allows users to get notified when a leak is detected.<br>
+    My colleague <a href='https://github.com/slyg' target='_blank'>Sylvain Faucherand</a> worked on the hardware of the <a href='https://github.com/slyg/leak-detector' target='_blank'>Arduino component</a>.
+  outcome: A first good introduction to IoT and Eletronics.<br>
+    The prototype is fully functionnal and the next step will to be tackle performance issues as well scalability.
   tags:
-    - blabla
-    - blabla
+    - Arduino
+    - Nodejs
+    - Serverless
+    - Python
+    - Flask
+    - IoT
+    - Twilio API
 - excerpt:
-  project: Ellie Bank on-boarding
-  context: context
-  role: context
-  challenge: ffff
-  description: blabla
-  outcome: ggg
+  project: Ellie Retail Banking On-boarding Experience - 2015
+  context:
+    - Building up Pre-sales material.
+    - Pre-sales work and pitching for client bids.
+  role:
+    - UX Lead on the project - team of 7.
+    - UX Design & Front-End .
+    - UX Strategy.
+    - Working closely with Scrum Master & PO.
+    - Analytics.
+  description:
+    This project was initiated to prove the benefits, ROI, risk, value management of the end to end journey from product definition to implementation and management to our FS clients from Design and Engineering angles.<br>
+    Pre-sales, response to bids showcasing best class ways of working and cross functional teams (Strategy, Design, Engineering) in Agile/Lean framework.
+  outcome: Led and contributed to a bid winning as the biggest digital transformation project in Europe (budge of more than £250M) in 2016.<br>
+    This work became a point of reference for Wipro Digital Engineering offering.<br>
+    The material has also been used, adapted for pitchting to other FS accounts.
   tags:
-    - blabla
-    - blabla
+    - Experience Maps
+    - Customer journeyrs
+    - Google Analytics
+    - Google Tag Manager
+    - A/B & MVT testing
+    - Bootstrap
+    - HTML/CSS
+    - Sketches
+    - Rapid prototyping
+    - Selenium
 - excerpt:
-  project: Exxonmobil sales app
-  context: context
-  role: context
-  challenge: ffff
-  description: blabla
-  outcome: ggg
+  project: Exxonmobil sales app - 2014
+  context:
+    - Helping teams with project planning and management based on clients and suppliers information.
+    - The serviced aimed to help increase ExxonMobil sales.
+    - Digital transformation project.
+  role:
+    - UX Lead.
+    - Product roadmap.
+    - UX Strategy & User Research.
+    - Heuristics evaluation.
+    - Project management.
+    - Rapid prototyping.
+  challenge: Global project (Europe, USA, China) and tight deadlines for workshops in the different countries.<br>
+  description: iPad app for the ExxonMobil Pre-sales and sales workforce helping users to plan, manage their meetings as well as providing their clients with tailored solutions based on the information provided and available across their systems.
+  outcome: Native app has been rolled out and used by ExxonMobil sales, Pre-sales teams.
   tags:
-    - blabla
-    - blabla
+    - Requirement Gathering
+    - Stakeholder Management
+    - User Research
+    - Heuristics Evaluation
+    - Qualitative Research
+    - Rapid Prototyping
+    - Axure
+    - Adobe Suite
 - excerpt:
-  project: Belgacom Omni channel experience
-  context: context
-  role: context
-  challenge: ffff
-  description: blabla
-  outcome: ggg
+  project: Belgacom Omni channel experience - 2014
+  context:
+    - Digital Transformation project.
+    - Helping the client increase sales with their telephony offerings.
+    - Omnichannel experience had to be provided.
+  role:
+    - UX Lead.
+    - Help client define strategy.
+    - UX Strategy & User Research.
+    - Project management.
+    - Rapid prototyping.
+  challenge: Coming up with a right concept, idea took many design iterations.<br>
+    Getting all the other business units on-board with a RWD approach.
+  description: Tool needed to be enabled for mass market products across residential and SME segments.<br>
+    Offering the right product or service and enhancing the collaboration between all channels supporting a common and consistent commissioning through cross-channel reporting.
+  outcome: This project helped the client pivot on the strategy already place to save costs.<br>
+    The service is live and used by millions customers.
   tags:
-    - blabla
-    - blabla
+    - Requirement Gathering
+    - Stakeholder Management
+    - User Research
+    - Usability Testing
+    - Rapid Prototyping
+    - Axure
+    - Visual Design
+    - Adobe Suite
+    - Information Architecture
+    - Card Sorting
+    - Analytics
 - excerpt:
-  project: R-link 2
-  context: context
-  role: context
-  challenge: ffff
-  description: blabla
-  outcome: ggg
+  project: R-link 2 - 2012
+  context:
+    - Helping Renault creating new touch screen systems (7' & 9') for their cars from €15 - 45k.
+    - Defining best class UX for their new embedded systems (Sat nav, Multimedia).
+  role:
+    - Information Architect.
+    - User research as well as competitor analysis to help define product requirement.
+    - Stakeholder management and running workshops to define requirements and liaise with the suppliers, product owners.
+    - Specifications of the new devices interfaces as well as hardware architecture.
+    - UX & UI design on the new interfaces and functionalities.
+  challenge: Constraints from other departments, technologies, engineering & ergonomics.
+  description: Renault R-Link2 multimedia interface provides simple features designed for in-car use.<br>
+    Allow customers to download apps such driving assistance tools, sat nav, multimedia and other connected services.
+  outcome: The <a href='https://www.renault-multimedia.com/gbr_EN/products/r-link2-en#fonctionnalites' target='_blank'>service</a> is live and used by millions customers.
   tags:
-    - blabla
-    - blabla
+    - Requirement Gathering
+    - Stakeholder Management
+    - User Research
+    - Usability Testing
+    - Visual Design
+    - Adobe Suite
+    - Information Architecture
+    - Card Sorting
 - excerpt:
-  project: Philips AED
-  context: context
-  role: context
-  challenge: ffff
-  description: blabla
-  outcome: ggg
+  project: Philips AED - 2010
+  context:
+    - US third party in charge of analysing AEDs usability.
+    - Willing to carry out the experiment in France.
+  role:
+    - In charge of defining the experimental protocol in french.
+    - Recruiting users based on 5 segments spread across 3 dimensions based on user types.
+    - Running usability sessions (user testing) with more than 120 users.
+    - Collecting data and analysis (video recording, interviews, observations).
+  challenge: Assessing AEDs usability that could help save lives and avoid other casualities when performing emergency routines.<br>
+    Recruiting participants and running the experimental protocol.<br>
+    Qualitative data analysis of feedback, usability measures of more than 120 participants.<br>
+    US third party provided patches for one of the device that helps administer electric shocks which were out of date.This caused issues during the experiment and I have identified the problem root cause - wrong patch models for the device.
+  description:
+    The Philips device in the context of emergency was the most efficient in helping users to admnister electric shocks as well as performing CPR routines.<br>
+    The Philips AED had vocal instructions telling the users that <em>"nobody should touch the patient"</em> whereas other devices instructed <em>"do not touch the patient"</em> which let to users no prompting the bystander letting go the manikin hand.
+  outcome: Recommended changes in the device vocals instructions as well as helping designing instructions in the notice.<br>From a personal experience it has been a revelation that attention to details can sometimes be critical.
   tags:
-    - blabla
-    - blabla
+    - Qualitative Research
+    - User Testing
+    - Panelists
+    - Interviews
+    - Emailing Campaigns
+    - Descriptive Statistics
+    - Inferential Statistics

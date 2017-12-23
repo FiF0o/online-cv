@@ -5,6 +5,13 @@
  * Twitter: @3rdwave_themes
  * License: Creative Commons Attribution 3.0 License
  * Website: http://themes.3rdwavemedia.com/
+ *
+ * Boostrap styles have been extended using less preprocessor on rake
+ * Assets will be bundled with gulp tool
+ * Project is now running with ruby rake, guard to style components for your needs
+ * https://github.com/FiF0o/
+ *
+ * Will require ruby, rubygems, rake and guard dependencies
 */
 /* styles.css */
 /* ======= Base ======= */
@@ -314,6 +321,18 @@ p {
 /**
 * Global
 **/
+.blockquote ul li {
+  list-style: square;
+}
+#project_excerpts {
+  display: none;
+}
+@media print {
+  #project_excerpts {
+    display: block;
+  }
+}
+/** print **/
 @media all {
   .print-page {
     display: none;
@@ -332,6 +351,9 @@ p {
 img.profile-img {
   box-shadow: inset 0px 0px 10px rgba(255, 255, 255, 0.5);
   border-radius: 50%;
+}
+.blockquote.blockquote {
+  font-size: 14px;
 }
 .label {
   background-color: #9567ff;

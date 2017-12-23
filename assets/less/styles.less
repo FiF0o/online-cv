@@ -5,6 +5,13 @@
  * Twitter: @3rdwave_themes
  * License: Creative Commons Attribution 3.0 License
  * Website: http://themes.3rdwavemedia.com/
+ *
+ * Boostrap styles have been extended using less preprocessor on rake
+ * Assets will be bundled with gulp tool
+ * Project is now running with ruby rake, guard to style components for your needs
+ * https://github.com/FiF0o/
+ *
+ * Will require ruby, rubygems, rake and guard dependencies
 */
 @import "mixins.less";
 @import "theme-default.less";
@@ -14,9 +21,26 @@
 **/
 @import "responsive.less";
 
+
 /**
 * Global
 **/
+
+.blockquote ul li {
+  list-style: square;
+}
+
+#project_excerpts {
+  display: none;
+  @media print {
+    display: block;
+    // font-weight: 600;
+    // -webkit-print-color-adjust: exact;
+    // color: red !important;
+  }
+}
+
+/** print **/
 .print-page {
   @media all {
     display: none;
@@ -26,6 +50,7 @@
     page-break-after: always;
   }
 }
+
 
 /**
 * Global overrides (less & bootstrap)
@@ -37,6 +62,10 @@ img {
     box-shadow: inset 0px 0px 10px rgba(255, 255, 255, 0.5);
     border-radius: 50%;
   }
+}
+
+.blockquote.blockquote {
+  font-size: 14px;
 }
 
 .label {
