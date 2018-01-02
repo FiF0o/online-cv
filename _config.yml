@@ -1,7 +1,7 @@
 # Site Settings
 title: Jon  CV
 url: 'https://fif0o.github.io' #jonathanlazarini.com
-baseurl: '/online-cv' #change it according to your repository name
+baseurl: '/online-cv' #change it according to your repository name - http://127.0.0.1:4000/online-cv/
 
 #Profile information
 name: Jon Lazarini
