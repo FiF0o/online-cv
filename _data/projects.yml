@@ -2,37 +2,40 @@
   description: "Below is a section presenting some of my personal projects as well as the customer-facing ones already delivered.</br>This is a non-exhaustive list."
 
 - project:
-  title: Unified Design Framework
+  title: "Mortgages Applications Service - 2018"
+  tagline: "Helping AIB with their digital transformation programme by providing customers with an end to end mortgage application experience."
+- project:
+  title: Unified Design Framework - 2017
   tagline: "Implementation of a Design system for Lloyds Banking Group client web applications <em>(Retail banking)</em> also known as UDF."
 - project:
-  title: Lloyds Banking Group Client Web Application
+  title: Lloyds Banking Group Client Web Application - 2016
   link: 'https://www.lloydsbank.com/'
   tagline: "Implementation of payment features for retail banking web applications."
 - project:
-  title: Philips consumer
+  title: Philips consumer - 2015
   link: "https://www.philips.co.uk"
   tagline: "Implementation of a living styleguide for Philips consumer using atomic design approach."
 - project:
-  title: US Bank
+  title: US Bank - 2014
   link: "https://www.usbank.com/index.html"
   tagline: "Experience roadmap, UX Research and UI design of US Bank employee self service."
 - project:
-  title: Belgacom
+  title: Belgacom - 2013
   link: "https://www.proximus.be/en/id_zwpr_p/personal/products.html"
   tagline: "Experience roadmap, UX Research and full interactive prototyping of Belgacom omnichannel product pack retail web application."
 - project:
-  title: RBS 6 Nations
+  title: RBS 6 Nations - 2013
   tagline: "UX Research, Design and Prototyping for RBS 6 Nations iPhone mobile app as well as designs."
   link: "http://www.sixnationsrugby.com/mobile/en/news/30793.php#i6faogWlx8ILI7O2.97"
 - project:
-  title: MR3 (iTrent2) - MidlandHR
+  title: MR3 (iTrent2) - MidlandHR - 2012
   link: "https://www.mhr.co.uk/solutions/"
   tagline: "UX Product roadmap, Information Architecture, UX Research, branding and prototyping of HR employee self-service <em>(ERP)</em>."
 - project:
-  title: R-Link2 - Renault
+  title: R-Link2 - Renault - 2011
   link: "https://group.renault.com/en/news/blog-renault/r-link-2-the-personalized-intuitive-connected-multimedia-system/"
   tagline: "UX Research, Desk Research, Contextual enquiry, MMI specifications, Wireframing, UI design of Renault touch screens for cars from €15-40k."
 - project:
-  title: e-shift by wire - Renault
+  title: e-shift by wire - Renault - 2011
   link: "https://www.ficosa.com/news/renault-chooses-the-new-ficosas-shift-by-wire-automatic-gearshift-for-espace/"
   tagline: "Desk Research, Market Research, Competitor Analysis and MMI/HMI specification Renault <a href='http://erticonetwork.com/renault-chooses-the-new-ficosas-shift-by-wire-automatic-gearshift-for-espace/'>shift by wire</a> for cars from €15-40k."

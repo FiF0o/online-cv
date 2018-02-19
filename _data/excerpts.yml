@@ -1,4 +1,31 @@
 - excerpt:
+  project: AIB Mortgages Applications Service - 2018
+  context:
+    - Helping AIB with their digital transformation programme running since 2016, portfolio of hundreds of million pounds.
+    - Enable an end to end experience as well as reducing AIB costs with their services maintenance.
+  role:
+    - Full stack front-end developer.
+    - Implementation of features, bug fixing, unit tests (Jest, Enzyme), living styleguide.
+    - Agile framework, helping with backlog prioritisation, team facilitation techniques.
+    - Using Reactjs, Redux, Sagas (async) and functional programming patterns.
+  description:
+   - The Mortgages Applications Service App provide end users with an easy to use, faster, omnichannel experience where it is possible to interact with AIB agents, share documents for mortages.</br>
+  challenge:
+    - First use of generator functions and sagas pattern. Helping the team ramp up and speed up the development cycles for the releases. Low code coverage and multiple bugs when merging.
+  outcome:
+    - Implemented 20% of the app features.
+    - Improved code coverage and overall CSS architecture which led to bug reduction.
+    - Team successfully launched the service despite the tight timeline.
+  tags:
+   - Nodejs
+   - Reactjs
+   - Redux
+   - Sagas
+   - RWD
+   - Living styleguide (Fractajs)
+   - Material UI
+   - Jest/Enzyme
+- excerpt:
   project: Poll app - 2017
   context:
     - Tailored application enabling polls for our internal teams (~150 users).
