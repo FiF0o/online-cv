@@ -16,15 +16,8 @@
     "update:gem": "bundle update",
     "test": "echo 'no tests :('"
   },
-  "pre-commit": [
-    "bundle"
-  ],
-  "pre-push": {
-    "colors": true,
-    "run": ["test"]
-  },
   "devDependencies": {
-    "gulp": "3.9.1",
+    "gulp": "^3.9.1",
     "gulp-clean-css": "3.9.0",
     "gulp-concat": "2.6.1",
     "gulp-htmlmin": "3.0.0",
