@@ -1,4 +1,32 @@
 - excerpt:
+  project: Lloyds Savings Customer Web Application - 2019
+  context:
+    - Helping the Savings lab on their digital transformation journey.
+    - Improving best pratices web development as well as augmenting sprint lloyds sprint velocity with core js skills.
+  role:
+    - Front end development of lloyds web applications core features.
+    - Leading digital transformation and best practices by enforcing TDD, automation, code refactoring and code quality (branching strategy, testing, react & flux patterns).
+    - Business stakeholders management and educating about technical debt as well as demonstrating coding best class examples.
+    - DevOps tasks and containerisation alongside with the Savings DevOps team.
+  description:
+   - The Lloyds savings customer applications allow new to bank customers as well as exiting customers to apply for new products as well as renewing existing products.</br>
+  challenge:
+    - Legacy codebase with a very high churn rate, high bug fixing in production and consultancies having worked on the same code base over the years.
+  outcome:
+    - Implementation of the core features of the web app to be available cross domains, cross channels as well upgrading the tech stack, dependencies which were 3 years old.<br>
+    - Improved route to live by upgrading the toolings, automation (with Jenkins) and containerisation cross environments - Time on build has been improved by 400%.<br>
+    - Configured the environments to be mapped to the production environment reducing defects in production and found by QA.<br>
+    - Enforcing testing practices - TDD - unit testing and e2e as well as forming junior developers.<br>
+    - Implemented analytics to enable LLoyds tracking their customers across their multiple web applications.<br>
+  tags:
+   - Nodejs
+   - Reactjs
+   - Flux
+   - Jasmine/Jest/Enzyme
+   - BDD/TDD (Mocha, wdio, cucumber)
+   - Jenkins
+   - Docker
+- excerpt:
   project: AIB Mortgages Applications Service - 2018
   context:
     - Helping AIB with their digital transformation programme running since 2016, portfolio of hundreds of million pounds.
@@ -22,7 +50,7 @@
    - Redux
    - Sagas
    - RWD
-   - Living styleguide (Fractajs)
+   - Living styleguide (Fractaljs)
    - Material UI
    - Jest/Enzyme
 - excerpt:
