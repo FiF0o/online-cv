@@ -5,8 +5,8 @@
   "private": true,
   "scripts": {
     "start": "npm run dev",
-    "install:bundler": "gem install bundler",
-    "install:jekyll": "npm run install:bundler && bundle install",
+    "install:bundler": "sudo gem install bundler",
+    "install:jekyll": "npm run install:bundler && sudo bundle install",
     "postinstall": "npm run install:jekyll",
     "dev": "bundle exec guard && open http://127.0.0.1:4000/online-cv/",
     "styles": "./node_modules/.bin/gulp minify-css",
