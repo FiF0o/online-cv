@@ -298,6 +298,18 @@ p {
     color: white !important;
     z-index: 1;
   }
+  ul.nav-header {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+  }
+  ul.nav-header > li > a {
+    margin: 0px;
+    padding: 5px;
+    background-color: rgba(132, 79, 253, 0.4);
+    color: rgba(250, 250, 250, 0.8);
+    border: none;
+  }
 }
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
@@ -318,6 +330,44 @@ p {
 }
 /* Large devices (large desktops, 1200px and up) */
 /* Ex-Large devices (large desktops, 1200px and up) */
+/**
+* Short Layout used for a concise/wordish version of CV
+*/
+/**
+* Navigation & Section
+*/
+@media print {
+  section.skills-section.section {
+    display: none;
+  }
+}
+.nav-header {
+  float: right;
+  display: inline-block;
+  text-align: center;
+  list-style-type: none;
+}
+.nav-header > li {
+  display: inline;
+}
+.nav-header > li > a {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: 1px solid #844ffd;
+  text-decoration: none;
+}
+.nav-header > li > a:hover {
+  background-color: #844ffd;
+  color: white;
+}
+.full-width {
+  padding: 60px;
+}
+@media (max-width: 767px) {
+  .full-width {
+    padding: 20px;
+  }
+}
 /**
 * Global
 **/
@@ -378,12 +428,8 @@ span.label.label-default {
 }
 @media print {
   #print,
-  #recommendations {
-    display: none;
-  }
-}
-@media print {
-  section.skills-section.section {
+  #recommendations,
+  .nav-header {
     display: none;
   }
 }

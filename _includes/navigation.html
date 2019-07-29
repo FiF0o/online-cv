@@ -1,0 +1,16 @@
+<nav>
+  <a
+    id="print"
+    onclick="window.print()"
+    style="cursor:pointer;color:#3f4650;"
+  >
+    <i class="fa fa-print" aria-hidden="true"></i>&nbsp;print
+  </a>
+  <ul class="nav-header">
+    {% for nav in site.data.navigation %}
+    <li>
+      <a href="{{ nav.link }}">{{ nav.name }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</nav>

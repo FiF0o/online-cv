@@ -23,6 +23,53 @@
 
 
 /**
+* Short Layout used for a concise/wordish version of CV
+*/
+
+.short {
+  h1 {
+  }
+}
+
+
+/**
+* Navigation & Section
+*/
+
+section.skills-section.section {
+  @media print {
+    display: none;
+  }
+}
+
+.nav-header {
+  float: right;
+  display: inline-block;
+  text-align: center;
+  list-style-type: none;
+  > li {
+    display: inline;
+    > a {
+      padding: 10px 20px;
+      margin-left: 10px;
+      border: 1px solid #844ffd;
+      text-decoration: none;
+      &:hover {
+        background-color: #844ffd;
+        color: white;
+      }
+    }
+  }
+}
+
+.full-width {
+  padding: 60px;
+  @media (max-width: 767px) {
+    padding: 20px;
+  }
+}
+
+/**
 * Global
 **/
 
@@ -34,9 +81,6 @@
   display: none;
   @media print {
     display: block;
-    // font-weight: 600;
-    // -webkit-print-color-adjust: exact;
-    // color: red !important;
   }
 }
 
@@ -70,9 +114,6 @@ img {
 
 .label {
   background-color: #9567ff;
-//   color: white;
-//   border: 1px solid white;
-//   margin: .5em;
 }
 
 span {
@@ -104,15 +145,9 @@ footer {
   }
 }
 
-#print, #recommendations {
+#print, #recommendations, .nav-header {
   @media print {
     display: none; //kk10xBye
-  }
-}
-
-section.skills-section.section {
-  @media print {
-    display: none;
   }
 }
 
