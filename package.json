@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "homepage": "https://fif0o.github.io/online-cv/_site",
   "private": true,
+  "engines": {
+    "node" : ">=6.0.0 <=12.0.0",
+    "npm": "~6.0.0"
+  },
   "scripts": {
     "start": "npm run dev",
     "install:bundler": "sudo gem install bundler",

@@ -4,21 +4,33 @@ layout: short
 
 {% include navigation.html %}
 <section class="section summary-section short">
+  {% include short_identity.html %}
+  {% include career-profile.html %}
+<!--
+  {% for skill in site.data.short.skills %}
+   <p>{{skill}}</p>
 
-    <h1 class="">First Name Last Name - Job Title</h1>
-    <h3>address line1</h3>
-    <h3>address line2</h3>
-    <h3>postcode</h3>
-    <h3>City, Country</h3>
-    <h3>tel</h3>
-    <h3>email</h3>
+  {% endfor %}
+  <section>
+    4 lines  
+  </section>
+  <section>
+    Skills
+      - Programming
+      - Sofware / Platforms
+  </section>
+  <div class="summary">
+    <p>details about like address, name, etc...</p>
+    Date from to
+    job title
+    company - website
+    4 lines description
+        - tech stack
+        - demonstrate expt
+        - interests
+  </div>
+  <div>education</div>
+  <div>certifications</div>
+  <div>extra curricular</div> -->    
+</section>
 
-    <div class="summary">
-      <p>details about like address, name, etc...</p>
-    </div><!--//summary-->
-      
-  </section><!--//section-->
-{% include career-profile.html %}
-<div>certifications</div>
-<div>extra curricular</div>
-<div>skills</div>

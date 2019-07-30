@@ -333,6 +333,18 @@ p {
 /**
 * Short Layout used for a concise/wordish version of CV
 */
+.short .about {
+  text-align: center;
+}
+.short .dark {
+  color: #3f4650;
+}
+.short .light {
+  color: #97aac3;
+}
+.short .bold {
+  font-weight: 800;
+}
 /**
 * Navigation & Section
 */
