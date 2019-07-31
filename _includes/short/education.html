@@ -1,3 +1,10 @@
 <section class="education-section">
   <h2 class="section-title">Education</h2>
+  {% for ed in site.data.short.education %}
+  <ul class="section-list">
+    <li>
+        {{ ed }}
+    </li>
+  </ul>
+  {% endfor %}
 </section>

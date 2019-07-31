@@ -1,15 +1,20 @@
 <section class="skills-section">
-    <h2 class="section-title">Skills</h2>
-    <!-- {% for skill in site.data.short.skills %}
-    <p>{{skill}}</p>
-    
+  <h2 class="section-title">Skills</h2>
+  <p>12 years of digital experience</p>
+  <h4>Programming & Frameworks</h4>
+  <ul class="section-list">
+    {% for skill in site.data.short.skills.programming %}
+    <li class="section-list-inline">
+      <p>{{skill}},</p>
+    </li>
     {% endfor %}
-    <section>
-      4 lines  
-    </section>
-    <section>
-      Skills
-      - Programming
-      - Sofware / Platforms
-    </section> -->
+  </ul>
+  <h4>Software & Platforms</h4>
+  <ul class="section-list">
+    {% for platform in site.data.short.skills.platforms %}
+    <li class="section-list-inline">
+      <p>{{platform}},</p>
+    </li>
+    {% endfor %}
+  </ul>
 </section>

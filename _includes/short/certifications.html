@@ -1,3 +1,10 @@
 <section class="certifications-section">
   <h2 class="section-title">Certifications</h2>
+    {% for certification in site.data.short.certifications %}
+    <ul class="section-list">
+      <li>
+          {{ certification }}
+      </li>
+    </ul>
+    {% endfor %}
 </section>
