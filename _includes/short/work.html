@@ -1,13 +1,17 @@
 <section class="work">
-    <h2 class="section-title">Work</h2>
-  <!-- <div class="summary">
-      <p>details about like address, name, etc...</p>
-      Date from to
-      job title
-      company - website
-      4 lines description
-      - tech stack
-      - demonstrate expt
-      - interests
-    </div> -->
+  <h2 class="section-title">Work</h2>
+  {% for exp in site.data.short.work %}
+  <ul>
+    <li class="work-list--child" >
+      <h4>{{ exp.title }}</h4>
+      <span>{{ exp.start }} - {{ exp.end }}</span>
+      <h5>{{ exp.company }}</h5>
+      <a href="{{exp.link}}">{{ exp.link }}</a>
+      <br>
+      <br>
+      <p>{{ exp.description }}</p>
+      <p>{{ exp.tech }}</p>
+    </li>
+  </ul>
+  {% endfor %}
 </section>

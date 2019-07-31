@@ -37,10 +37,12 @@ platforms:
 - Docker
 - Jira
 - AWS
+- IBM Bluemix
+- Prisma
 - Git
 - Unix
 - Google Cloud
-- noSQL
+- NoSQL
 - Jenkins
 - Travis CI
 - Websockets

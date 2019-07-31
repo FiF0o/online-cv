@@ -1,0 +1,32 @@
+- experience:
+  title: blabla
+  company: company
+  link: https://fif0o.github.io
+  start: date
+  end: end
+  description: gvevefev.<br> Another line.<br>Another line.<br>
+  tech: tech here,
+- experience:
+  title: blabla
+  company: company
+  link: mylink
+  start: date
+  end: end
+  description: gvevefev.<br> Another line.<br>Another line.<br>
+  tech: tech here,
+- experience:
+  title: blabla
+  company: company
+  link: mylink
+  start: date
+  end: end
+  description: gvevefev.<br> Another line.<br>Another line.<br>
+  tech: tech here,
+- experience:
+  title: blabla
+  company: company
+  link: mylink
+  start: date
+  end: end
+  description: gvevefev.<br> Another line.<br>Another line.<br>
+  tech: tech here,
