@@ -26,6 +26,12 @@ programming:
 - Mocha
 - BDD
 - TDD
+- Cucumber
+- Karma
+- npm
+- Express
+- W3C
+
 
 platforms:
 - Docker
@@ -37,3 +43,4 @@ platforms:
 - noSQL
 - Jenkins
 - Travis CI
+- Websockets
