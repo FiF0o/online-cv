@@ -361,6 +361,9 @@ p {
 .short .work-list--child {
   margin-bottom: 30px;
 }
+.short .work-list--child i {
+  font-weight: 500;
+}
 .short .work-list--child > h4 {
   display: inline-block;
   width: 50%;
@@ -379,6 +382,7 @@ p {
 }
 .short .work-list--child > p:last-child {
   text-transform: uppercase;
+  font-weight: 500;
 }
 /**
 * Navigation & Section

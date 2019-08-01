@@ -1,32 +1,40 @@
 - experience:
-  title: blabla
-  company: company
-  link: https://fif0o.github.io
-  start: date
-  end: end
-  description: gvevefev.<br> Another line.<br>Another line.<br>
-  tech: tech here,
+  title: Lead Front-end engineer - <i>Principal Consultant</i>
+  company: Buildit@Wipro Digital
+  link: https://buildit.wiprodigital.com/
+  start: May 2018
+  end: current
+  description: Enterprise web development for Finance sector.<br>Mentor developers and advise on front-end technical architecture, implementation.<br>Work closely with product owners, scrum masters on product roadmaps definition and planning.<br>Contribute to back-end as well as devOps tasks and activities.<br>
+  tech: Javascript, Typescript, NodeJs, Express, React, Angular 8, Redux, Flux, Sagas, RxJs, AWS, Google Cloud, Mongo, GraphQL, SASS, Html, Jest, Karma, Mocha, CumcumberJs, Selenium, Docker, Jenkins, Python, Elm, Serverless,
 - experience:
-  title: blabla
-  company: company
-  link: mylink
-  start: date
-  end: end
-  description: gvevefev.<br> Another line.<br>Another line.<br>
-  tech: tech here,
+  title: Front-end engineer - <i>Manager</i>
+  company: Wipro Digital
+  link: https://wiprodigital.com/
+  start: October 2014
+  end: May 2018
+  description: Enterprise web development for Finance, O&G, Health sectors.<br>Work on in-house projects which include web app development, design systems & pattern libraries.<br>Collaborate closely with product owners, scrum masters on product roadmaps definition and planning.<br>
+  tech: Javascript, NodeJs, Express, React, Angular 1, SASS, Less, Boostrap, Gulp, Html, Jest, Karma, Mocha, Selenium
 - experience:
-  title: blabla
-  company: company
-  link: mylink
-  start: date
-  end: end
-  description: gvevefev.<br> Another line.<br>Another line.<br>
-  tech: tech here,
+  title: UX Practioner - <i>Associate Manager</i>
+  company: Accenture
+  link: https://www.accenture.com/gb-en
+  start: August 2013
+  end: October 2014
+  description: Create and design enterprise, web apps for the Mobility stream.<br>Perform end to end user experience activities from ideation to conception and production.<br>Pre-sale, pitch, stakeholder management and run workshops with senior executives as well as partners.<br>Work involved sectors such as O&G, Retail, Banking, Teleco.<br>Mentor and line manage junior consultants on pre-sales and client projects.<br>
+  tech: FramerJs, Origami, Quartz Composer, Adobe CC, Axure, Sketch
 - experience:
-  title: blabla
-  company: company
-  link: mylink
-  start: date
-  end: end
-  description: gvevefev.<br> Another line.<br>Another line.<br>
-  tech: tech here,
+  title: Information Architect/UX Designer - <i>Senior</i>
+  company: MHR
+  link: https://www.mhr.co.uk/
+  start: April 2012
+  end: August 2013
+  description: Perform end to end UX activities from product defintion, ideation and conception of a HR ERP.<br>First UX hire, define strategic design, branding, ux design agile ways of working.<br>Mentor UX designers and line management tasks.<br>Collaborate closely with product owners, scrum masters on product roadmaps definition and planning.<br>
+  tech: Balsamiq, Axure, Adobe, Optimal sort, Jira
+- experience:
+  title: Human Computer Interaction Research - <i>Contracting</i>
+  company: Renault
+  link: https://group.renault.com/en/our-company/locations/our-industrial-locations/guyancourt-design-renault/
+  start: July 2011
+  end: April 2012
+  description: Define and write specifications of gear shifts for cars ranging from 15 to €45k.<br>Design technical specifications, wireframes and visual designs of new embedded touch screens and their web applications for cars ranging from 15 to €45k.<br>Work closely with electrical, mechanical engineers to ensure product best ergonomics standards and feasilbilty as well as end user testing.<br>Perform benkmarching and competitor analysis, report to Renault HMI/Ergonomics team lead.<br>
+  tech: Office suite, Adobe, Sketch, Rapid prototyping, Card sorting & taxonomy, competitor analysis

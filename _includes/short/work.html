@@ -5,10 +5,9 @@
     <li class="work-list--child" >
       <h4>{{ exp.title }}</h4>
       <span>{{ exp.start }} - {{ exp.end }}</span>
-      <h5>{{ exp.company }}</h5>
-      <a href="{{exp.link}}">{{ exp.link }}</a>
-      <br>
-      <br>
+      <h5>
+        <a href="{{exp.link}}">{{ exp.company }}</a>
+      </h5> 
       <p>{{ exp.description }}</p>
       <p>{{ exp.tech }}</p>
     </li>
