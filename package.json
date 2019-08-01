@@ -4,8 +4,8 @@
   "homepage": "https://fif0o.github.io/online-cv/_site",
   "private": true,
   "engines": {
-    "node" : ">=6.0.0 <=12.0.0",
-    "npm": "~6.0.0"
+    "node" : ">=6.4.0",
+    "npm": "~3.10.3"
   },
   "scripts": {
     "start": "npm run dev",
