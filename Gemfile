@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-gem 'rake', '~> 10.4.2'
+gem 'rake', '~> 12.3.3'
 gem 'less', '~> 2.6'
 gem 'therubyracer', '~> 0.12.3'
 gem 'guard', '~> 2.14', '>= 2.14.1'
