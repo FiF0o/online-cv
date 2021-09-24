@@ -1,7 +1,7 @@
 import fs from 'fs';
 import prompt from 'prompt';
 import logger from './logger';
-
+// blbla
 const schema = {
   properties: {
     type: {
