@@ -37,7 +37,9 @@
         {% include "partials/_skills.njk" %}
         {% include "partials/_about.njk" %}
         {% include "partials/_work.njk" %}
-        {% include "partials/_publication.njk" %}
+        {% if author.publishes.length > 0 %}
+          {% include "partials/_publication.njk" %}
+        {% endif %}
         {% include "partials/_projects.njk" %}
         {% include "partials/_certifications.njk" %}
         {% include "partials/_education.njk" %}
